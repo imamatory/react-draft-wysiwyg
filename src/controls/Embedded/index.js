@@ -57,6 +57,11 @@ class Embedded extends Component {
       config: { embedCallback },
     } = this.props;
     const src = embedCallback ? embedCallback(embeddedLink) : embeddedLink;
+
+    if(!src) {
+      return
+    }
+
     const entityKey = editorState
       .getCurrentContent()
       .createEntity('EMBEDDED_LINK', 'MUTABLE', { src, height, width })
