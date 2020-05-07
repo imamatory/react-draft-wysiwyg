@@ -1,11 +1,11 @@
 {
-  "name": "react-draft-wysiwyg",
+  "name": "@rbc-public/react-draft-wysiwyg",
   "version": "1.14.5",
   "description": "A wysiwyg on top of DraftJS.",
   "main": "dist/react-draft-wysiwyg.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jpuri/react-draft-wysiwyg.git"
+    "url": "git+https://github.com/imamatory/react-draft-wysiwyg.git"
   },
   "author": "Jyoti Puri",
   "devDependencies": {
@@ -79,5 +79,12 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imamatory/react-draft-wysiwyg/issues"
+  },
+  "homepage": "https://github.com/imamatory/react-draft-wysiwyg#readme",
+  "directories": {
+    "doc": "docs"
+  }
 }
